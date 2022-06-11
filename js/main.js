@@ -1,3 +1,14 @@
+
+// type js script
+var typed = new Typed('.type', {
+    // Waits 1000ms after typing "First"
+strings: ['Student', 'Human', 'Gamers', 'Programmer'],
+typeSpeed:100,
+backSpeed:70,
+loop:true,
+});
+
+
 /* MENU SHOW */ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
